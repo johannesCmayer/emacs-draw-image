@@ -9,5 +9,5 @@
   (progn
     (spacemacs/declare-prefix "aoi" "draw-image")
     (spacemacs/set-leader-keys
-      "oaii" 'draw-image
-      "oaid" 'draw-image-delete)))
+      "aoii" 'draw-image
+      "aoid" 'draw-image-delete)))

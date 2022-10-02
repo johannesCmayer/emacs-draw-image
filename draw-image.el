@@ -10,7 +10,7 @@
   (setq output-link
     (shell-command-to-string
      (concat "draw-image " (file-name-base file-path))))
-  (kill-whole-line)
+  (delete-region (line-beginning-position) (line-end-position))
   (insert output-link)
   (org-display-inline-images)
   (org-redisplay-inline-images))
